@@ -1,0 +1,97 @@
+.heading{
+            color: rgba(248, 247, 227, 0.927);
+            font-size: 70px;
+        }
+        .banner{
+          background-color: rgb(47, 47, 194);
+          display: grid;
+          grid-template-columns: repeat(2,1fr);
+          padding: 100px;
+        }
+        #player-pic{
+            height: 500px;
+            width: 500px;
+
+        }
+        .Watch-now-btn{
+            background-color: rgb(207, 4, 207);
+           padding: 10px;
+         color: azure;
+         font-weight: bold;
+        
+        }
+
+        .heading:hover{
+
+          transform:skew(30deg) scale(1.1);
+          transition: 2s;
+          color: rgb(233, 172, 15);
+
+
+        }
+.Watch-now-btn:hover{
+  background-color: rgb(168, 166, 166);
+  transition: 2s;
+  color: brown;
+}
+
+#player-pic:hover{
+transform: rotate(360deg) scale(.5);
+transition: 2s;
+
+}
+
+.player{
+  padding: 10px;
+ 
+  text-align: justify;
+ box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+}
+.players{
+  padding: 100px;
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  grid-gap: 30px;
+}
+.player img:hover{
+  transform: scale(.5);
+  transition: 2s;
+}
+.picture{
+  border: 10px rgb(84, 81, 81) solid;
+}
+.gallary{
+  padding: 100px;
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  grid-gap: 20px;
+}
+
+.picture img{
+  height: 300px;
+  width: 300px;
+}
+
+.border_radius{
+  height: 200px;
+  width: 200px;
+  background-color: greenyellow;
+
+}
+.border_radius1{
+  height: 200px;
+  width: 200px;
+  background-color: rgb(18, 184, 192);
+  border-radius: 50%;
+}
+.border{
+  display: flex;
+justify-content: space-around;
+
+background-color: burlywood;
+height: 900px;
+width: 100%;
+align-items: center;
+flex-wrap: wrap;
+flex-direction:row-reverse
+}
